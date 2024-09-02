@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.first_section{
+    background-color: skyblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height:80vh;
+    width: 50vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+   
+}
+.box h1{
+    font-size: 4vw;
+    color: lightblue;
+}
+.box h2{
+    font-size: 5vw;
+    color: green;
+}
+.buttons{
+    display: flex;
+    gap: 3vw;
+}
+.buttons button{
+    height: 5vh;
+    width: 10vw;
+    background-color: transparent;
+    border: 2px solid gray;
+    font-size: 1vw;
+    border-radius: 5%;
+}
